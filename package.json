@@ -1,0 +1,36 @@
+{
+  "name": "quotely",
+  "description": "A simple to use package that gives you quotes.",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "homepage": "https://github.com/crysthamus/Quotely#readme",
+  "bugs": {
+    "url": "https://github.com/crysthamus/Quotely/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crysthamus/Quotely.git"
+  },
+  "keywords": [
+    "quotes",
+    "api",
+    "quotely",
+    "quote",
+    "speeches"
+  ],
+  "license": "MIT",
+  "author": "Crysthamus",
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@types/node": "^22.14.1",
+    "eslint": "^9.24.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.30.1"
+  }
+}
